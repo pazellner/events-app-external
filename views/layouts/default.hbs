@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Paige's Event Website</title>
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+</head>
+<body>
+  <div>
+      <h1>Welcome to Paige's Event Website</h1>
+    {{{body}}}
+</div>
+<div>
+  <h2>Add an event</h2>
+    <form action="/event" method="post">
+       Title: <input name="title" type="text" /> <br />
+       Host: <input name="host" type="text" /> <br />
+       Description: <input name="description" type="text" /> <br />
+        Date: <input name="date" type="text" /> <br />
+        Time: <input name="time" type="text" /> <br />
+       Address: <input name="Address" type="text" /> <br />
+       <br />
+        <input type="submit" name="submit" value="submit" />
+       <br />
+    </form>
+  </div>
+</body>
+</html>
